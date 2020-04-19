@@ -15,6 +15,7 @@ import {
   faInstagram,
   faYoutube,
   faWhatsapp,
+  faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
 
 import LandingPage from "./pages/LandingPage";
@@ -37,7 +38,8 @@ library.add(
   faWhatsapp,
   faEnvelope,
   faEyeSlash,
-  faEye
+  faEye,
+  faGoogle
 );
 
 const App = () => (

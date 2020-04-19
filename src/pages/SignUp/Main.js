@@ -41,7 +41,7 @@ function Main(props) {
                 icon={!showPassword ? "eye-slash" : "eye"}
               />
             </div>
-            <div className='forget-password-container'>
+            <div className="forget-password-container">
               <Link className="forget-password" to="/">
                 forgot password?
               </Link>{" "}
@@ -66,7 +66,7 @@ function Main(props) {
             </div>
             <p className="primary-color">
               New here ?
-              <Link className="ml-1 primary-color" to="/">
+              <Link className="ml-1 primary-color" to="/signup">
                 create an account >
               </Link>
             </p>

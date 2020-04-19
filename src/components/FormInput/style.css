@@ -1,56 +1,54 @@
 .form-input {
-    padding: 18px;
-    border-radius: 47px;
-    border: 1.1px solid lightgray;
-    outline: none;
-    color: #432d78;
-    font-size: 15px;
-    width: 80%;
-    margin: 10px 0px;
-    font-weight: 900;
+  padding: 18px;
+  border-radius: 47px;
+  border: 1.1px solid lightgray;
+  outline: none;
+  color: #432d78;
+  font-size: 15px;
+  width: 80%;
+  margin: 10px 0px;
+  font-weight: 900;
 }
 
-.right{
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-right: 2px; 
-    width: 145px;
+.right {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-right: 2px;
+  width: 50%;
 }
 
-.left{
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-left: 2px;
-    width: 145px;
+.left {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-left: 2px;
+  width: 50%;
 }
 .right-drop-down,
-.left-drop-down{
-    margin:0px 5px;
+.left-drop-down {
+  margin: 0px 5px;
 }
-.left-drop-down  .MuiInputBase-formControl{
-    border-top-left-radius: 27px !important;
-    border-bottom-left-radius: 27px !important;
+.left-drop-down .MuiInputBase-formControl {
+  border-top-left-radius: 27px !important;
+  border-bottom-left-radius: 27px !important;
 }
 
-.right-drop-down  .MuiInputBase-formControl{
-    border-top-right-radius: 27px !important;
-    border-bottom-right-radius: 27px !important;
+.right-drop-down .MuiInputBase-formControl {
+  border-top-right-radius: 27px !important;
+  border-bottom-right-radius: 27px !important;
 }
 
 .MuiOutlinedInput-input,
-.MuiMenuItem-gutters{
-    font-family:Rubik-Regular !important;
-    font-weight:900 !important;
-    color: gray !important;
-    
+.MuiMenuItem-gutters {
+  font-family: Rubik-Regular !important;
+  font-weight: 900 !important;
+  color: gray !important;
 }
 
 .strech-dropDown,
 .strech-dropDown > .drop-down-container,
-.strech-dropDown > .drop-down-container > .MuiFormControl-root
-{
-    width:100% !important;
+.strech-dropDown > .drop-down-container > .MuiFormControl-root {
+  width: 100% !important;
 }
-.small-input{
-    width:100px
+.small-input {
+  width: 100px;
 }
