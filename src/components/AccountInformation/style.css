@@ -1,0 +1,17 @@
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+    .information-wapper{
+        width: 300px;
+        margin: 15px 0px;
+    }
+    .infomation-container{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+}
+@media only screen and (min-width: 992px){ 
+ }

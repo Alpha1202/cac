@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    max-height: 25%;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    background-color: white;
+}
+
+.navlinks{
+    display:flex;    
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    color: white;
+    justify-content: space-around;
+    max-width: 400px;
+}
+
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+}
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    padding: 0px 20px;
+}

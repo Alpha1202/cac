@@ -1,0 +1,76 @@
+
+@media only screen and (min-width: 320px) and (max-width: 480px){ 
+    .right-side{
+        flex-direction: column;
+    } 
+    .vault-balance-container {
+        flex-direction: column;
+    }
+    .vault-balancer-left-wrapper{
+        width: 100%;
+    }
+    .vault-balancer-left-wrapper-bottom{
+        width: 100%;
+    }
+    .matured-card{
+        width: 100%;
+    }
+    .vault-balancer-right-wrapper{
+        width: 100%;
+    }
+    .vault-balancer-left-wrapper > h1{
+        font-size: 21px;
+    }
+    .list-item-wrapper{
+        width:100vw
+    }
+    .matured-card-left > div > h3{
+        font-size: 14px;
+    }
+    .matured-card-left > div > span:nth-child(1){
+        font-size: 11px;
+    }
+    .matured-card-left > div > span:nth-child(2){
+        font-size: 10px;
+    }
+    .matured-card-left > div > span:nth-child(3){
+        font-size: 12px;
+    }
+    .matured-card-left-info-wrapper > div{
+        font-size: 14px;
+    }
+    .matured-card-left-info-wrapper > span{
+        font-size: 11px;
+    }
+    .currently-locked-container{
+        width:100%;
+    }
+    .currently-locked-container{
+        width: 98%;
+    }
+    .slider-card-item{
+        width:400px;
+        height:80px;
+    }
+}
+@media only screen and (min-width: 712px) and (max-width: 991px){ 
+    .vault-balance-container{
+        flex-direction: column;
+    } 
+    .vault-balancer-left-wrapper,
+    .vault-balancer-right-wrapper{
+        margin: 10px 0px;
+        height: 450px;
+    }
+    .currently-locked-container{
+        width:400px;
+    }
+}
+ @media only screen and (min-width: 992px){ 
+    .vault-balance-container{
+        display: flex;
+        width: 100%;
+        padding: 0px 20px 20px 0px;
+    
+    }
+  }

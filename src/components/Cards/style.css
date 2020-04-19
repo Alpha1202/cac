@@ -1,0 +1,377 @@
+.card-wrapper{
+    padding: 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background: #432d78;
+    margin: 10px;
+    max-width: 500px;
+}
+
+.card-shadow{
+    box-shadow: 6px 8px 17px 0px #888888;
+}
+
+.card-shadow:hover{
+    animation-name:hoverCard;
+    animation-duration:1s;
+}
+
+@keyframes hoverCard{
+    from {
+        box-shadow: 6px 8px 17px 0px #888888;
+    }
+
+    to{
+        box-shadow: -1px 2px 20px 3px #424040;
+    }
+}
+
+
+
+.wallet-balance{
+    
+    margin: 20px;
+
+}
+
+.loan-wrapper{
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.loan-txt-icon{
+    display: flex;
+}
+
+.loan-txt-icon > div:nth-child(2){
+    
+    margin-left: 10px;
+
+}
+
+.loan-wrapper > div:nth-child(2){
+    margin-left: 10px;
+}
+
+
+
+/* Card 2 styles */
+
+.card2-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 450px;
+    height: 320px;
+    background:#165d4b;
+
+}
+.card2-container > div {
+    width: 100%;
+    height:100%;
+}
+
+.card2-container > div > div{
+    
+    height: 100%;
+
+}
+
+.BrainhubCarousel
+{
+    height: 100% !important; 
+
+}
+
+.BrainhubCarousel > .BrainhubCarousel__trackContainer
+{
+    height: 100% !important;
+
+}
+.BrainhubCarousel__track 
+{
+    height: 100% !important;
+}
+
+.property-info-slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.property-valut{
+    
+    display: flex;
+
+}
+
+.property-valut > div:nth-child(2){
+    
+    margin-left: 5px;
+
+}
+.plots-location{
+    
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px;
+    background: #104235;
+
+}
+.plots-location span {
+    
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+
+}
+
+.stats-container{
+    
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8px;
+
+}
+
+.stats-icons-container{
+    
+    width: 10%;
+    display: flex;
+    align-items: center;
+
+}
+
+.stats-wrapper{
+    
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width:100%;
+
+}
+
+.valut-percent{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    align-items: center;
+
+}
+.valut-percent span{
+    
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.valut-percent h1{
+    
+    margin: 0px;
+
+}
+
+.visualizer-wrapper {
+    
+    width: 50%;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke:rgb(67, 45, 120) !important;
+}
+.CircularProgressbar .CircularProgressbar-trail{
+    stroke:rgb(0, 255, 141) !important;
+}
+
+
+/* card 3 styles */
+.ammount-container{
+    display: flex;
+}
+
+.card-3-container{
+    
+    display: flex;
+    flex-direction: column;
+    background: #432d78;
+    border-radius: 20px;
+    margin: 6px;
+    width: 450px;
+    padding: 8px;
+    height: 120px;
+
+}
+.card-3-container > div,
+.card-3-container > div > div
+{
+    height: 100%
+}
+
+
+
+.ValutBalanceInfo-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.BrainhubCarousel__trackContainer{
+    
+    width: 100%;
+
+}
+
+.valut-balance-txt-icon{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.valut-balance-txt-icon-cover{
+    
+    display: flex;
+
+}
+
+.valut-balance-txt-icon-cover > div:nth-child(2){
+    
+    margin-left: 5px;
+
+}
+
+.ammount-container{
+    display: flex;
+    width: 100%;
+}
+
+.switch-icons{
+    
+    width: 5%;
+    display: flex;
+    align-items: center;
+
+}
+
+.ammount-wrapper{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+
+}
+
+.ammount-wrapper > div > div:nth-child(1){
+    
+    font-size: 20px;
+
+}
+
+.ammount-wrapper > div > div:nth-child(2){
+    
+    font-size: 19px;
+    font-family: Rubik-Bold;
+}
+
+.progress-bar{
+    color:green
+}
+
+.money{
+    font-size: 30px;
+    font-family: Rubik-Bold; 
+}
+
+.money-small{
+    font-weight:900;
+}
+.prgress-bar{
+    
+    width: 100%;
+    height: 9px;
+    background: white;
+    border-radius: 20px;
+
+}
+.prgress-bar > .prgress{
+    width:30%;
+    background:rgb(0, 255, 141)
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+    
+    .card-3-container  {
+        width:100%;
+    }
+    .card2-container{
+        width: 98%;
+        height: 230px;
+    }
+
+    .card-wrapper{
+        width: 98%;
+    }
+    .money{
+        font-size: 18px;
+    }
+    .valut-percent span{
+        font-size: 14px;
+    }
+    .valut-percent > div:nth-child(1) {
+        width: 100%;
+        height: 8px;
+        border-radius: 5px;
+        margin-bottom: 2px;
+    }
+    .ValutBalanceInfo-container{
+        justify-content: space-between;
+    }
+    .ValutBalanceInfo-container > div > div{
+        display: flex; 
+        align-items: center;
+    }
+    .ValutBalanceInfo-container > div > div > div{
+        margin-left: 5px;font-size: 16px;
+    }
+    .ammount-wrapper{
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+}
+@media only screen and (min-width: 992px){ 
+ }

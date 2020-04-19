@@ -1,0 +1,20 @@
+.input-wapper{
+        display: flex;
+        flex-direction: column;
+        height: 45px;
+        justify-content: space-between;
+        margin: 10px 0px;
+}
+
+.input {
+        width: 200px;
+        padding: 10px;
+        border-radius: 20px;
+        outline: none;
+        border: 1.4px solid #ababab;
+        margin: 5px 0px;
+}
+
+.small-input{
+        width:100px;
+}

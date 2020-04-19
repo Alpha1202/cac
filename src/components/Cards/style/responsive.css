@@ -1,0 +1,49 @@
+
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+    
+    .card-3-container  {
+        width:100%;
+    }
+    .card2-container{
+        width: 98%;
+        height: 230px;
+    }
+
+    .card-wrapper{
+        width: 98%;
+    }
+    .money{
+        font-size: 18px;
+    }
+    .valut-percent span{
+        font-size: 14px;
+    }
+    .valut-percent > div:nth-child(1) {
+        width: 100%;
+        height: 8px;
+        border-radius: 5px;
+        margin-bottom: 2px;
+    }
+    .ValutBalanceInfo-container{
+        justify-content: space-between;
+    }
+    .ValutBalanceInfo-container > div > div{
+        display: flex; 
+        align-items: center;
+    }
+    .ValutBalanceInfo-container > div > div > div{
+        margin-left: 5px;font-size: 16px;
+    }
+    .ammount-wrapper{
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+}
+@media only screen and (min-width: 992px){ 
+ }

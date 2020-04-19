@@ -1,0 +1,134 @@
+.home-container{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.home-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background: white;
+    max-height: 100vh;
+}
+
+.left-side{
+    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.right-side{
+
+    display: flex;
+    justify-content: center;
+    flex: 6;
+    justify-content: flex-end;
+
+}
+
+
+.cover{
+    border: 1px solid #bfbfbf;
+    padding: 20px;
+    margin-top: 40px;
+    background: white;
+    border-radius: 20px;
+}
+
+
+.valut-container {
+
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin-right: 20px;
+    height: 90%;
+    color: white;
+}
+
+.vault-right {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+}
+.vault-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information-wapper{
+
+    width: 100%;
+    color:#432d78;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.infomation-container{
+    width: 400px;
+}
+
+.information-cover{
+
+    justify-content: space-between;
+    display: flex;
+    color: #432d78;
+
+}
+.info-info{
+    
+    font-size: 16px;
+
+}
+.info-value{
+    
+    font-size: 16px;
+    font-weight: 900;
+
+}
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.side-bar-item {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+    .infomation-container{
+    
+        width: 300px;
+        margin: 0px 5px;
+    
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+}
+@media only screen and (min-width: 992px){ 
+ }

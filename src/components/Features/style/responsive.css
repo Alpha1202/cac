@@ -1,0 +1,45 @@
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+    .features-header{
+        width: 90%;
+        align-items: center;
+        margin: auto;
+        background: white;
+
+    }
+    .features-header  > h2{
+        text-align: center;
+        font-size: 23px;
+    }
+    .features-header  > p{
+        width: 100%;
+        color: lightgray;
+    }
+    .features-container{
+        background: white;
+        width: 100%;
+
+    }
+    .feature {
+        width: 50%;
+        background: white;
+
+    }
+    .feature img {
+        width: 123px;
+        height: 100px;
+    }
+    .features-wrapper {
+        width: 100%;
+    }
+    .feature p{
+        display: none;
+        visibility: hidden;
+    }
+    .feature h3{
+        text-align: center;
+    }
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+    
+}

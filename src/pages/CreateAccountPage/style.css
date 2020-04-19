@@ -1,0 +1,88 @@
+.wrapper{
+    padding: 0px 20px;
+}
+.sign-up-main-container{
+    
+    height: 100%;
+    display: flex;
+
+}
+.left-wrapper-sign-up{
+    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #422c78;
+}
+.left-wrapper-sign-up > h1{
+    
+    font-family: Rubik-Bold;
+    margin: 10px 0px;
+
+}
+.left-wrapper-sign-up > span{
+    
+    font-size: 30px;
+
+}
+
+
+.right-wrapper{
+   
+    flex: 1;
+ 
+}
+.sign-up-form-wrapper{
+    padding: 20px;
+    background: white;
+    box-shadow: 5px 5px 8px 0px #949292;
+    border-radius: 22px;
+    width: 500px;
+}
+
+.sign-up-form-wrapper > form{
+    
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sign-up-form-wrapper > form > span{
+    color: lightgray;
+}
+
+.sign-up-form-wrapper > form > span > span {
+    color: #422d77;
+}
+.sign-up-form-wrapper > form > div{
+    
+    display: flex;
+    align-items:center
+
+}
+
+.sign-up-button-container{
+    margin: 20px;
+}
+
+.sign-up-with-google{
+    width: 160px;
+    background: white;
+    border: 1.1px solid lightgray;
+    padding: 9px;
+    border-radius: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0px;
+}
+.sign-up-with-google > span:nth-child(2){
+    
+    font-size: 20px;
+
+}

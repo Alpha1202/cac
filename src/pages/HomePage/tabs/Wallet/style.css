@@ -1,0 +1,301 @@
+.wallet-container{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px 20px 0px;
+    color:#432d78;
+
+}
+
+.wallet-container div,span{
+    font-weight: 900;
+}
+
+.wallet-left-wrapper{
+    
+    flex: 4;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.wallet-left-top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-slider-container{
+    
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.slider-card-item {
+    margin: 0px 5px;
+    border-radius: 4px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+}
+
+
+.card-slider-container span:nth-child(1){
+    cursor: pointer;
+}
+
+.card-slider-wrapper {
+    width: 100%;
+    height: fit-content;
+}
+
+.new-card-container{
+    
+    width: 100%;
+
+}
+
+.form-input-wrapper{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.default-card-wrapper {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.card-button-wrapper{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px;
+}
+
+.activities-container{
+    
+    width: 100%;
+
+}
+
+.activity-wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.activity-card{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    max-width: 400px;
+    width: 400px;
+    box-shadow: 7px 4px 8px 0px #949292;
+    background: white;
+}
+
+.wallet-right-container{
+    
+    flex: 3;
+
+}
+
+.tab-switch-container{
+    
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.tab-switch-wrapper{
+    
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.selected-item {
+    font-size: 14px;
+    font-family: Rubik-Regular;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    transform: translate(0px,1px);
+}
+
+.unselected-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+    cursor: pointer;
+}
+
+
+.select-card-wrapper{
+    background: cornflowerblue;
+    padding: 10px 0px;
+    height: 200px;
+}
+
+.pad-content {
+    width: 100%;
+    padding: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.color-money {
+    margin:5px 0px; 
+}
+.activities-container > h2{
+    color:lightgray;
+    margin:5px 0px;
+}
+
+.pad-right-content{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+}
+.form-wrapper{
+    
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.form-wrapper form{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.card-item{
+    background: red;
+    width: 150px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-slider{
+    
+    border: 2px solid lightgray;
+    padding: 16px;
+    border-radius: 23px;
+
+}
+
+.des-txt{
+    color: lightgray;
+    font-size: 12px;
+}
+
+
+.propety-icon-wrapper span {
+    font-family:Rubik-Regular !important;
+    font-weight:900;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+    .wallet-container{
+        width: 100%;
+        flex-direction: column;
+        padding: 5px;
+        background: transparent;
+    }
+    .wallet-left-wrapper{
+        width: 100%;
+    }
+    .pad-content{
+        padding: 0px;
+        width: 100%;
+    }
+    .card-slider-container{
+        width: 100%;
+    }
+    .activity-wrapper{
+        padding: 0px 4px;
+    }
+    .activity-card{
+        width: 100%;
+    }
+    .wallet-right-container{
+        width: 100%;
+    }
+    .pad-right-content  .input-wapper{
+        height: fit-content !important;
+    }
+    .card-slider-container {
+        width: 100%;
+    }
+    
+    .wallet-right-container,
+    .wallet-left-wrapper 
+    {
+        box-shadow: 1px 1px 15px 1px #bbbbbb;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px 0px;
+    }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 991px){ 
+    .wallet-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .pad-right-content  .input-wapper{
+        height: fit-content !important;
+    }
+    .wallet-left-wrapper, .wallet-right-container {
+        border: 0px;
+        box-shadow: 1px 1px 15px 1px #bbbbbb;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px 0px;
+    }
+}
+ @media only screen and (min-width: 992px){ 
+  }
+

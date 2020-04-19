@@ -1,0 +1,290 @@
+
+
+
+.vault-wrapper{
+    
+    width: 100%;
+    display: flex;
+    background: aliceblue;
+
+}
+
+.vault-balancer-left-wrapper{
+    flex: 5;
+    margin-right: 20px;  
+    background: white;
+    display: flex;
+    flex-direction: column;
+                                              
+}
+
+.icon-text-wrapper{
+    
+    width: fit-content;
+    margin-bottom: 10px;
+    color:#432d78
+}
+.vault-balancer-left-wrapper-bottom{
+    
+    flex-grow: 1;
+
+}
+
+
+.vault-balancer-left-wrapper h1 {
+    
+    font-family: Rubik-Bold;
+    color: #432d78;
+    margin: 15px 0px;
+    font-size: 45px;
+
+
+}
+
+.vault-balancer-right-wrapper{
+    flex: 3;
+    background: white;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+
+}
+.vault-balancer-right-wrapper  > h1{
+
+    color: #29c89d;
+    font-family: Rubik-Bold;
+
+}
+
+.vault-balancer-input-wrapper{
+    
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+
+}
+
+.left-tab-container{
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.card-wallet-wrapper{
+
+    width: 350px;
+    padding: 20px;
+    margin: 10px 0px;
+    border-radius: 40px;
+    border: 1px solid lightgray;
+    background: white;
+
+}
+
+.card-wallet-wrapper > div:nth-child(2){
+    
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+
+}
+
+.card-wallet-top{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.left-tab-wrapper{
+    
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+    cursor: pointer;
+}
+
+.list-item-wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: inherit;
+    color: #432d78;
+}
+
+
+.matured-card{
+    
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 7px 0px;
+    background: white;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.matured-card-left {
+    display: flex;
+    width: 400px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 2px 19px 0px #949292;
+    border-radius: 10px;
+}
+.matured-card-left > span:nth-child(2){
+    color: #03fc8b;
+}
+.matured-card-left-info-wrapper > div{
+    color: #03fc8b;
+}
+.matured-card-left-info-wrapper > span:nth-child(3)
+{
+    color: lightgray;
+    font-weight: 100;
+}
+.list-item-wrapper > div > div:nth-child(2){
+    
+    margin-left: 10px;
+    color: lightgray;
+
+}
+
+
+.matured-card-left-info-wrapper{
+    
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.currently-locked-container{
+    
+    background: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    box-shadow: 5px 2px 16px 0px #949292;
+    border-radius: 10px;
+    padding: 6px;
+    width: 450px;
+
+}
+
+.currently-locked-top{
+    
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.currently-locked-top > div{
+    color: #432d78;
+}
+.currently-locked-top > h2{
+    
+    font-family: Rubik-Bold;
+
+}
+
+.currently-locked-bottom{
+    
+    border-radius: 20px;
+    overflow: hidden;
+    height: 7px;
+    background: lightgray;
+
+}
+
+.currently-locked-bottom-progress-bar{
+    
+    background: green;
+    animation-name:progress-bar-animation;
+    animation-duration: 5s;
+    width: 50%;
+}
+@keyframes progress-bar-animation {
+    0%{
+        width:0%
+    }
+    40%{
+        width:20%
+    }
+    50%{
+        width:0%
+    }
+    100%{
+        width:50%
+    }
+}
+.selected-vault-tab{
+
+    color: #432d78;
+    font-family: Rubik-Bold;
+
+}
+.unselected-vault-tab{
+    color: lightgray;
+    font-family: Rubik-Regular;
+}
+.color-element{
+    color: #432d78;
+}
+.vault-2{
+    color: lightgray;
+}
+
+
+ .new-vault-field-containers{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+.new-vault-days-input {
+     
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    padding-right: 6px;
+
+ }
+
+ .new-vault-days-input > span{
+     
+    color: #432d78;
+
+ }
+ .new-vault-days-input .PrivateNotchedOutline-root-61,.new-vault-days-input fieldset{
+    border:0px !important;
+    border-style: none;
+    border-width: 0px;
+    
+ }
+
+ 

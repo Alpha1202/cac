@@ -1,0 +1,41 @@
+@media only screen and (min-width: 320px) and (max-width: 991px){ 
+    .wrapper{
+        padding: 0px !important;
+        width: 100%;
+    }
+    .navbar-left {
+        width: 50%;
+    }
+    .navbar-left >  .navlinks{
+        display: none;
+    }
+    .sm-backdrop{
+        display: flex;
+        width: 50%;
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+    .btnContainer{
+        display:none;
+        visibility:none;
+    }
+
+}
+@media only screen and (min-width: 992px){ 
+    .navbar-left{
+        max-width: 500px;
+    }
+    
+    .navlinks{
+        
+        max-width: 350px;
+    
+    }
+    .navbar-right{
+        width: 350px;
+    }
+    .sm-backdrop{
+        display:none;
+        visibility:none;
+    }
+}

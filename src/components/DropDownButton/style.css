@@ -1,0 +1,31 @@
+.dropDown-button-container  .MuiFormControl-root{
+    
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+} 
+
+
+.dropDown-button-container  .MuiFormControl-root  .MuiInputBase-formControl{
+    
+    border: 0px solid white !important;
+    background: white !important;
+    box-shadow: 0 0 20px 0px #afafaf !important;
+    border-radius: 44px !important;
+    overflow: hidden !important;
+
+}
+
+.dropDown-button-container  .MuiFormControl-root  .MuiInputBase-formControl  .MuiSelect-selectMenu{
+    
+    border: 0px solid white !important;
+    padding: 9.5px 11px !important;
+    padding-right: 32px !important;
+
+}
+
+.dropDown-button-container legend,
+.dropDown-button-container fieldset {
+    visibility: hidden !important;
+}

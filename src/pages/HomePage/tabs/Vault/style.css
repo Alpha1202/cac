@@ -1,0 +1,152 @@
+
+
+
+
+.wrapper{
+    padding: 0px 20px;
+}
+.sign-up-main-container{
+    
+    height: 100%;
+    display: flex;
+
+}
+.vault-left-wrapper{
+    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #422c78;
+}
+.vault-left-wrapper > h1{
+    
+    font-family: Rubik-Bold;
+    margin: 10px 0px;
+
+}
+.vault-left-wrapper > span{
+    
+    font-size: 30px;
+
+}
+
+
+.vault-right-wrapper{
+   
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+.valut-form-wrapper{
+    padding: 20px;
+    background: white;
+    box-shadow: 5px 5px 8px 0px #949292;
+    border-radius: 22px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+.valut-form-wrapper > h1{
+    
+    margin: 20px 0px;
+    font-family: Rubik-Bold;
+    color: #422c78;
+
+}
+
+.valut-form-wrapper > form{
+    
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.slider-container
+{
+    
+    display: flex;
+    width: 100%;
+    background: #28c89c;
+    height: 7px;
+    border-radius: 20px;
+
+}
+.vault-form-input-wapper{
+    display: flex;
+}
+
+
+.valut-form-wrapper > form > h3{
+    
+    color: #422c78;
+
+}
+
+.valut-form-button{
+    margin: 20px;
+}
+
+.vault-container{
+    
+    width: 100%;
+    display: flex;
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+    .vault-container{
+        flex-direction: column;
+    }
+    .vault-left-wrapper > h1{
+        font-size: 25px;
+    }
+    
+    .vault-left-wrapper > span{
+        font-size: 16px;
+    }
+
+    .vault-right-wrapper{
+        flex-direction:row;
+    }
+    
+    .valut-form-wrapper{
+        box-shadow: 1px 1px 15px 1px #bbbbbb;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px 5px;
+    }
+}
+@media only screen and (min-width: 712px) and (max-width: 991px){ 
+    .vault-container{
+        flex-direction: column;
+    }
+    .vault-left-wrapper > h1{
+        font-size: 25px;
+    }
+    
+    .vault-left-wrapper > span{
+        font-size: 16px;
+    }
+
+    .vault-right-wrapper{
+        flex-direction:row;
+    }
+    
+    .valut-form-wrapper{
+        box-shadow: 1px 1px 15px 1px #bbbbbb;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px 5px;
+    }
+}

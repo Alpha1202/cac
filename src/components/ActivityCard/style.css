@@ -1,0 +1,14 @@
+.good-returns{
+    color:green
+}
+.bad-returns{
+    color:red
+}
+
+.returns{
+        font-size: 11px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}

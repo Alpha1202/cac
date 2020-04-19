@@ -1,0 +1,146 @@
+.admin-container-wrapper
+{  
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+.admin-container{
+    width: 100%;
+    display: flex;
+}
+
+
+.admin-left-wrapper{
+    flex: 1;
+}
+.info-wrapper{
+    margin: 20px;
+}
+.info-wrapper > h1{
+    
+    color: #422d72;
+    font-family: Rubik-Bold;
+
+}
+
+.info-wrapper > h2{
+    
+    font-family: Rubik-Bold;
+    color: #29c89d;
+
+}
+.left-form-wapper{
+    
+    width: 400px;
+    margin-top: 10px;
+
+}
+.left-form-wapper > form > div{
+    
+    display: flex;
+    max-width: 290px;
+}
+
+.admin-right-wrapper{
+        flex: 1;
+}
+
+.admin-right-card
+{
+    background: white;
+    padding: 21px;
+    box-shadow: 5px 5px 8px 0px #949292;
+    margin: 20px;
+    width: 500px;
+    border-radius: 20px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.admin-right-card-top
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.admin-right-card-top > h3{
+    
+    color: #29c89d;
+    font-family: Rubik-Bold;
+
+}
+
+.card-slider-container > span{
+    color: #422d72;
+}
+.delete-button-wrapper{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+
+}
+.automte-saving-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.admin-right-card > h2{
+    
+    color: #29c89d;
+    font-family: Rubik-Bold;
+    text-align: center;
+
+}
+.automte-saving-container > span{
+    
+    color: lightgray;
+
+}
+.timer-wrapper
+{
+    padding: 12px;
+    border-radius: 47px;
+    border: 1.1px solid lightgray;
+    width: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+
+}
+
+.timer-wrapper > h1{
+    
+    color: #422d72;
+    font-family: Rubik-Bold;
+
+}
+.automate-button-wapper{
+    display: flex;
+    align-items: center;
+}
+.center-item{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.delete-wapper{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+
+.duration-drop-down{
+    width:290px;
+    margin: 10px 0px;
+}
