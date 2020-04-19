@@ -11,7 +11,7 @@
     }
     .sm-backdrop{
         display: flex;
-        width: 50%;
+        /* width: 50%; */
         flex-grow: 1;
         justify-content: flex-end;
     }

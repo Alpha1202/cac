@@ -9,7 +9,7 @@ function Features() {
         <div>
             <div className="features">
                 <div className="features-container">
-                    <div className="features-header">
+                    <div className="features-header text-center">
                         <h2>Drive financial independence....create more property owners!</h2>
                         <p>
                             Cache is a property-specific savings platform that enable

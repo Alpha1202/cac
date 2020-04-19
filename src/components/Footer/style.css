@@ -1,12 +1,11 @@
-.footer
-{
-  flex:1;
-  background-color:#fafafa;
+.footer {
+  flex: 1;
+  background-color: #fafafa;
   /* padding:45px 0 20px; */
-  font-size:15px;
+  font-size: 15px;
   /* line-height:24px; */
-  color:#737373;
-  margin-top:20px;
+  color: #737373;
+  margin-top: 20px;
   width: 100%;
   /* align-self: center; */
   /* align-items: center; */
@@ -15,6 +14,23 @@
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
+}
+.footer-container {
+  background-color: #fafafa;
+  margin: 0px auto;
+}
+
+.footer-container p {
+  margin-bottom: 0px;
+  color: #432c77;
+}
+
+.footer-logo-container {
+  margin-left: -10px;
+}
+
+.footer-contact {
+  color: #432c77;
 }
 .wrapper1 {
   display: flex;
@@ -25,76 +41,77 @@
   align-items: center;
   justify-content: space-around;
 }
-.wrapper1-col-1{
+.wrapper1-col-1 {
   display: flex;
   flex-direction: column;
   flex: 1;
   align-items: center;
   justify-content: center;
 }
-.wrapper1-col-1-logo{
- 
+.wrapper1-col-1-logo {
 }
-.wrapper1-col-1-text{
-
+.wrapper1-col-1-text {
 }
-.wrapper1-col-1-text a{
+.wrapper1-col-1-text a {
   text-decoration: none;
 }
-.wrapper1-col-1-text a p{
-  font-family: 'Rubik', sans-serif;
+.wrapper1-col-1-text a p {
+  font-family: "Rubik", sans-serif;
 }
-.wrapper1-col-2-text a{
+.wrapper1-col-2-text a {
   text-decoration: none;
 }
-.wrapper1-col-2-text a p{
-  font-family: 'Rubik', sans-serif;
+.wrapper1-col-2-text a p {
+  font-family: "Rubik", sans-serif;
 }
 .wrapper1-col-2-bold {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: bold;
-  /* margin-bottom: 10px; */
+  margin-bottom: 10px;
   /* align-self: center; */
+  color: #432c77;
 }
-.wrapper1-col-2{
+.wrapper1-col-2 {
   display: flex;
   flex-direction: column;
   flex: 1;
   align-items: center;
   justify-content: center;
 }
-.wrapper1-col-3{
+.wrapper1-col-3 {
   display: flex;
   flex-direction: column;
   flex: 1;
   align-items: flex-start;
   justify-content: center;
-  
 }
-.wrapper1-col-3-text{
-
-margin-bottom: 30px;
+.wrapper1-col-3-text {
+  margin-bottom: 30px;
 }
-.wrapper1-col-3-text a{
+.wrapper1-col-3-text a {
   text-decoration: none;
 }
-.wrapper1-col-3-text a p{
-  font-family: 'Rubik', sans-serif;
+.wrapper1-col-3-text a p {
+  font-family: "Rubik", sans-serif;
 }
 .wrapper2 {
   width: 40%;
   align-items: center;
   justify-content: center;
-  
 }
 
-@media only screen and (min-width: 320px) and (max-width: 766px){ 
-  .footer{
+@media only screen and (min-width: 992px) {
+  .footer-container {
+    padding: 5rem 10rem;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 766px) {
+  .footer {
     display: flex;
     flex-direction: row;
-
   }
-  .wrapper1-col-1{
+  .wrapper1-col-1 {
     width: 100%;
     background-color: fuchsia;
   }
