@@ -2,7 +2,11 @@ import React from "react";
 import "./fonts/fonts.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faEye,
+  faEyeSlash,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   fab,
   faTwitter,
@@ -31,7 +35,9 @@ library.add(
   faInstagram,
   faYoutube,
   faWhatsapp,
-  faEnvelope
+  faEnvelope,
+  faEyeSlash,
+  faEye
 );
 
 const App = () => (
