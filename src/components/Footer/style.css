@@ -19,6 +19,7 @@
   background-color: #fafafa;
   margin: 0px auto;
   justify-content: space-between;
+  padding: 5px 20px;
 }
 
 .company-details {
@@ -108,7 +109,29 @@
 
 @media only screen and (min-width: 992px) {
   .footer-container {
-    padding: 5rem 10rem;
+    padding: 5rem 7rem;
+  }
+
+  .quick-links {
+    margin-left: -2rem;
+  }
+
+  .company-details {
+    justify-content: space-evenly;
+  }
+
+  .footer-address {
+    margin-left: -6rem;
+  }
+}
+
+@media only screen and (min-width: 1204px) {
+  .footer-address {
+    margin-left: -7rem;
+  }
+
+  .company-det {
+    justify-content: space-between;
   }
 }
 
