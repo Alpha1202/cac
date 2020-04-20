@@ -9,24 +9,24 @@ function Footer() {
   return (
     // <footer className="footer">
     <footer className="row footer-container">
-      <div className="col-md-3">
-        <div className="footer-logo-container mb-4">
-          <Logo />
+      <div className="col-md-6 company-details">
+        <div>
+          <div className="footer-logo-container mb-4">
+            <Logo />
+          </div>
+          <div className="footer-links">
+            <Link to="/">
+              <p>Sign up to our Newsletter</p>
+            </Link>
+            <Link to="/">
+              <p>Terms of use</p>
+            </Link>
+            <Link to="/">
+              <p>Privacy policy</p>
+            </Link>
+          </div>
         </div>
-        <div className="footer-links">
-          <Link to="/">
-            <p>Sign up to our Newsletter</p>
-          </Link>
-          <Link to="/">
-            <p>Terms of use</p>
-          </Link>
-          <Link to="/">
-            <p>Privacy policy</p>
-          </Link>
-        </div>
-      </div>
-      <div className="col-md-3 mt-4">
-        <div className="">
+        <div className="mt-4">
           <h5 className="wrapper1-col-2-bold">Quick Links</h5>
           <Link>
             <p>About us</p>
@@ -41,9 +41,7 @@ function Footer() {
             <p>FAQs</p>
           </Link>
         </div>
-      </div>
-      <div className="col-md-3 mt-4">
-        <div className="">
+        <div className="mt-4">
           <h5 className="wrapper1-col-2-bold">Address</h5>
           <Link>
             <p>13 Glover road</p>
@@ -59,6 +57,24 @@ function Footer() {
           </Link>
         </div>
       </div>
+      {/* <div className="col-md-3 mt-4 company-details"></div> */}
+      {/* <div className="col-md-3 mt-4">
+        <div className="">
+          <h5 className="wrapper1-col-2-bold">Address</h5>
+          <Link>
+            <p>13 Glover road</p>
+          </Link>
+          <Link to="/">
+            <p>Ikoyi, Lagos,</p>
+          </Link>
+          <Link to="/">
+            <p>Nigeria</p>
+          </Link>
+          <Link to="/">
+            <p></p>
+          </Link>
+        </div>
+      </div> */}
       <div className="col-md-3 mt-4 footer-contact">
         <div className="wrapper2-icons mb-3">
           <div>

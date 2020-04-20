@@ -71,7 +71,9 @@ h3 {
 }
 
 .feature img {
-  width: 60%;
+  /* width: 60%; */
+  width: 200px;
+  height: 200px;
   /* height:1x; */
   /* margin-bottom: 20px; */
 }
