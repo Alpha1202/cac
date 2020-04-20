@@ -125,9 +125,9 @@
   }
 }
 
-@media only screen and (min-width: 1204px) {
+@media only screen and (min-width: 1230px) {
   .footer-address {
-    margin-left: -7rem;
+    margin-left: -5rem;
   }
 
   .company-det {
