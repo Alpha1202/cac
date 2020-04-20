@@ -14,8 +14,12 @@
   right: 15%;
 }
 
+.position-unset {
+  position: unset;
+}
+
 .forget-password-container {
-    width: 80%;
+  width: 80%;
 }
 
 .forget-password {
@@ -33,6 +37,7 @@
   /* height: 100%;
     display: flex; */
   margin-top: 5rem;
+  margin-left: 0px;
 }
 .left-wrapper-sign-in {
   /* flex: 1;
@@ -60,7 +65,7 @@
   box-shadow: 5px 5px 8px 0px #949292;
   border-radius: 22px;
   /* width: 500px; */
-  padding: 56px 20px;
+  padding: 3rem 0rem;
 }
 
 .sign-in-form-wrapper > form {

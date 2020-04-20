@@ -9,7 +9,7 @@ import illustrationImage from "../../static/web.png";
 function Main() {
   return (
     <div className="row sign-up-main-container">
-      <div className="col-md-6 left-wrapper-sign-up">
+      <div className="col-md-6 position-unset left-wrapper-sign-up">
         <img
           className="image"
           src={illustrationImage}
@@ -24,7 +24,7 @@ function Main() {
           </span>
         </div>
       </div>
-      <div className="col-md-6 mt-5 right-wrapper-sign-up">
+      <div className="col-md-6 mt-5 position-unset right-wrapper-sign-up">
         <div className="sign-up-form-wrapper">
           <Form>
             <div class="signup-input-container">
@@ -51,7 +51,7 @@ function Main() {
               By creating your account your agreeing to the
               <span>Terms of Service</span>
             </span>
-            <div className="sign-up-button-container">
+            <div className="sign-up-button-container mt-5">
               <NewButton type>Create Account</NewButton>
             </div>
           </Form>

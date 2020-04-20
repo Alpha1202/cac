@@ -77,7 +77,7 @@ function Footer() {
           </div>
           <div>
             <FontAwesomeIcon className="mr-1" icon="envelope" />
-            <span>info@cache.com</span>
+            <span>info@cache.ng</span>
           </div>
           <div>
             <FontAwesomeIcon className="mr-1" icon={["fab", "whatsapp"]} />

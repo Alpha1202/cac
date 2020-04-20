@@ -12,7 +12,7 @@ function Main(props) {
       {redirect && <Redirect to="/signup" />}
       <div className="row ml-2 main">
         {/* <div className="col-md-6 main-left mb-4"> */}
-        <div className="col-md-6 mb-4">
+        <div className="col-md-6 mb-4 homepage-banner">
           <div className="left-wrap">
             <div>
               <h2 className="desc">
@@ -42,7 +42,7 @@ function Main(props) {
           </div>
         </div>
         {/* <div className="col-md-6 main-right"> */}
-        <div className="col-md-6">
+        <div className="col-md-6  homepage-banner">
           <img
             className="image"
             src={illustrationImage}

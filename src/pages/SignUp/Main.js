@@ -16,7 +16,7 @@ function Main(props) {
   };
   return (
     <div className="row sign-in-main-container">
-      <div className="col-md-6 left-wrapper-sign-in">
+      <div className="col-md-6 position-unset left-wrapper-sign-in">
         <img
           className="image"
           src={illustrationImage}
@@ -29,7 +29,7 @@ function Main(props) {
           <span>G</span>
         </div> */}
       </div>
-      <div className="col-md-6 right-wrapper-sign-in mt-4">
+      <div className="col-md-6  position-unset right-wrapper-sign-in mt-4">
         <div className="sign-in-form-wrapper">
           <Form>
             <FormInput placeholder={"Email"} />
@@ -47,7 +47,7 @@ function Main(props) {
               </Link>{" "}
             </div>
 
-            <div className="sign-in-button-container">
+            <div className="sign-in-button-container mt-5">
               <NewButton
                 type
                 onClick={(e) => {
@@ -61,7 +61,7 @@ function Main(props) {
                   props.history.push("/home?tab=dashboard");
                 }}
               >
-                Create Account
+                Sign in
               </NewButton>
             </div>
             <p className="primary-color">
