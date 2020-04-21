@@ -1,18 +1,20 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './style.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./style.css";
 // import logo from '../../static/logo.png';
-import Logo from '../logo'
+import Logo from "../logo";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <div className="wrapper1">
-        <div className="wrapper1-col-1">
-          <div className="wrapper1-col-1-logo">
+    // <footer className="footer">
+    <footer className="row footer-container">
+      <div className="col-md-6 company-details">
+        <div>
+          <div className="footer-logo-container mb-4">
             <Logo />
           </div>
-          <div className="wrapper1-col-1-text">
+          <div className="footer-links">
             <Link to="/">
               <p>Sign up to our Newsletter</p>
             </Link>
@@ -24,13 +26,9 @@ function Footer() {
             </Link>
           </div>
         </div>
-        <div className="wrapper1-col-1">
-          {/* <div className='wrapper1-col-2-bold'> */}
-
-          {/* </div> */}
-
-          <div className="wrapper1-col-2-text">
-            <p className="wrapper1-col-2-bold">Quick Links</p>
+        <div className="quick-links">
+          <div className="mt-4">
+            <h5 className="wrapper1-col-2-bold">Quick Links</h5>
             <Link>
               <p>About us</p>
             </Link>
@@ -45,9 +43,12 @@ function Footer() {
             </Link>
           </div>
         </div>
-        <div className="wrapper1-col-1">
-          <div className="wrapper1-col-3-text">
-          <p className="wrapper1-col-2-bold">Address</p>
+      </div>
+
+      <div className="col-md-6 company-details company-det">
+        <div className="footer-address mt-4">
+          <div className="">
+            <h5 className="wrapper1-col-2-bold">Address</h5>
             <Link>
               <p>13 Glover road</p>
             </Link>
@@ -62,20 +63,29 @@ function Footer() {
             </Link>
           </div>
         </div>
-        <div className="wrapper1-col-1">
-          <div className='wrapper2-icons'>
-          <ul class="social-icons">
-              <li><Link to='/' className="facebook"><i className="fa fa-facebook"></i></Link></li>
-              <li><Link to='/' className="twitter"><i className="fa fa-twitter"></i></Link></li>
-              <li><Link to='/' className="dribbble"><i className="fa fa-dribbble"></i></Link></li>
-              <li><Link to='/' className="linkedin"><i className="fa fa-linkedin"></i></Link></li>   
-            </ul>
+        <div className="mt-4 footer-contact">
+          <div className="wrapper2-icons mb-3">
+            <div>
+              <FontAwesomeIcon className="mr-2" icon={["fab", "facebook-f"]} />
+              <FontAwesomeIcon className="mr-2" icon={["fab", "twitter"]} />
+              <FontAwesomeIcon className="mr-2" icon={["fab", "instagram"]} />
+              <FontAwesomeIcon
+                className="footer-icon"
+                icon={["fab", "youtube"]}
+              />
+            </div>
           </div>
-          <div></div>
-          <div></div>
-      </div>
-      </div>
+          <div>
+            <FontAwesomeIcon className="mr-1" icon="envelope" />
+            <span>info@cache.com</span>
+          </div>
+          <div>
+            <FontAwesomeIcon className="mr-1" icon={["fab", "whatsapp"]} />
 
+            <span>+234 867 000 0000</span>
+          </div>
+        </div>
+      </div>
       {/* <div className="wrapper2">
           <div className='wrapper2-icons'>
           <ul class="social-icons">
@@ -134,7 +144,7 @@ function Footer() {
         </div>
       </div> */}
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

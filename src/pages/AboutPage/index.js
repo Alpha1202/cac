@@ -6,7 +6,7 @@ function About() {
     return (
         <div className="wrapper">
             <Header />
-            <div className="about-container">
+            <div className="about-container mt-5">
                 <div className="about-left">
                     <h1 className="mission">Our Mission:</h1>
                     <h1>
