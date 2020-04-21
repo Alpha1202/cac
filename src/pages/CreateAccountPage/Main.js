@@ -4,24 +4,30 @@ import FormInput from "../../components/FormInput";
 import Form from "../../components/Form";
 import NewButton from "../../components/newButton";
 
-import illustrationImage from "../../static/web.png";
+import illustrationImage from "../../static/signup.png";
 
 function Main() {
   return (
     <div className="row sign-up-main-container">
-      <div className="col-md-6 position-unset left-wrapper-sign-up">
-        <img
-          className="image"
-          src={illustrationImage}
-          alt="cache illustration"
-        />
-        <h1>let's get to know you</h1>
-        <span>Create an account</span>
-        <div className="sign-up-with-google">
-          <span>Create with Google</span>
-          <span>
-            <FontAwesomeIcon className="mr-2" icon={["fab", "google"]} />
-          </span>
+      <div className="col-md-6 left-wrapper-sign-up-cont position-unset ">
+        <div className="left-wrapper-sign-up">
+          <img
+            // className="signup-image image"
+            className="signup-image"
+            src={illustrationImage}
+            alt="cache illustration"
+          />
+          <div className="signup-text">
+            <h3>Let's get to know you</h3>
+            <h2>Create an account</h2>
+
+            <div className="sign-up-with-google">
+              <span>Create with Google</span>
+              <span>
+                <FontAwesomeIcon className="mr-2" icon={["fab", "google"]} />
+              </span>
+            </div>
+          </div>
         </div>
       </div>
       <div className="col-md-6 mt-5 position-unset right-wrapper-sign-up">

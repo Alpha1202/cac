@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import FormInput from "../../components/FormInput";
 import Form from "../../components/Form";
 
-import illustrationImage from "../../static/web.png";
+import illustrationImage from "../../static/signin.png";
 import NewButton from "../../components/newButton";
 import { withRouter } from "react-router";
 

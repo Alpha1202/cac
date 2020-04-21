@@ -12,7 +12,7 @@ function Footer() {
       <div className="col-md-6 company-details">
         <div>
           <div className="footer-logo-container mb-4">
-            <Logo />
+            <Logo footer={true} />
           </div>
           <div className="footer-links">
             <Link to="/">

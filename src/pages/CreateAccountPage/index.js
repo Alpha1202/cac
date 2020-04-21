@@ -14,7 +14,7 @@ class CreateAccountPage extends PureComponent {
     render() {
         return (
             <div className="wrapper">
-                <Header auth={true}/>
+                <Header auth={false}/>
                 <Main />
             </div>
         )

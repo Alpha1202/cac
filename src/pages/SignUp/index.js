@@ -15,7 +15,7 @@ class SignUp extends Component {
     render() {
         return (
             <div className="wrapper">
-                <Header auth={true}/>
+                <Header auth={false}/>
                 <Main />
             </div>
         )
