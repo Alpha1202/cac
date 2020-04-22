@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="wrapper">
       <Header />
-      <div className="about-container mt-5">
+      <div className="about-container">
         <div className="about-left">
           <h1 className="mission">Our Mission:</h1>
           <h1>
@@ -15,7 +15,7 @@ function About() {
             potential.
           </h1>
         </div>
-        <div className="about-right">
+        <div className="about-right mt-3">
           <p>
             Buying property can be one of the most rewarding and lucrative
             investments you ever make. Real estate is a risky game even for the

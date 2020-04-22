@@ -2,6 +2,7 @@
   .about-container {
     flex-direction: column;
     padding: 2rem;
+    margin-top: 3rem;
   }
   .about-container > div {
     width: 100%;
@@ -18,5 +19,11 @@
     font-size: 25px;
     text-align: left;
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .about-container {
+    margin-top: 4rem;
   }
 }
