@@ -7,15 +7,17 @@ function About() {
   return (
     <div className="wrapper">
       <Header />
-      <div className="about-container">
-        <div className="about-left">
-          <h1 className="mission">Our Mission:</h1>
-          <h1>
-            To empower more property owners to reach their full wealth
-            potential.
-          </h1>
+      <div className="row about-container">
+        <div className="col-md-6 about-left">
+          <div className='mission-title-container'>
+            <h1 className="mission">Our Mission:</h1>
+            <h1>
+              To empower more property owners to reach their full wealth
+              potential.
+            </h1>
+          </div>
         </div>
-        <div className="about-right mt-3">
+        <div className="col-md-6 about-right mt-3">
           <p>
             Buying property can be one of the most rewarding and lucrative
             investments you ever make. Real estate is a risky game even for the
