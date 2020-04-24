@@ -5,10 +5,11 @@ import Question from "./QuestionComponent";
 import Header from "../../components/Header";
 import Tag from "./TagComponent";
 import SearchBar from "./SearchBarComponent";
+import Footer from "../../components/Footer";
 export default class FaqPage extends Component {
   render() {
     return (
-      <div className="faq-wrapper">
+      <div className="wrapper">
         <Header />
         <div className="search-container">
           <SearchBar />
@@ -33,6 +34,7 @@ export default class FaqPage extends Component {
             <Question />
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

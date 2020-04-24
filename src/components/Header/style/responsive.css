@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) and (max-width: 991px){ 
+    @media only screen and (min-width: 320px) and (max-width: 991px){ 
     .wrapper{
         padding: 0px !important;
         width: 100%;
@@ -15,15 +15,15 @@
         flex-grow: 1;
         justify-content: flex-end;
     }
-    .btnContainer{
+    .navBtnContainer{
         display:none;
         visibility:none;
     }
 
 }
-@media only screen and (min-width: 992px){ 
+@media only screen and (min-width: 992px) and (max-width: 1240px){ 
     .navbar-left{
-        max-width: 500px;
+        max-width: 70%;
     }
     
     .navlinks{
@@ -38,4 +38,44 @@
         display:none;
         visibility:none;
     }
+    .navBtnContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 30%;
+        /* padding: 20px; */
+      }
+      .navBtn{
+         min-width: 40%;
+      }
+}
+@media only screen and (min-width: 1241px) {
+    .navbar-left{
+        max-width: 70%;
+    }
+    
+    .navlinks{
+        
+        max-width: 350px;
+    
+    }
+    .navbar-right{
+        width: 350px;
+    }
+    .sm-backdrop{
+        display:none;
+        visibility:none;
+    }
+    .navBtnContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 30%;
+        /* padding: 20px; */
+      }
+      .navBtn{
+         min-width: 30%;
+      }
 }

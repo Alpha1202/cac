@@ -16,15 +16,18 @@ function Header(props) {
         <React.Fragment>
             {redirect && (route == "/signup") &&  <Redirect to="/signup" />}
             {redirect && (route == "/signin") &&  <Redirect to="/signin" />}
-            <div className="navbar">
+            <nav className="navbar navbar-expand-sm bg-white fixed-top container-fluid">
+                
+
+               
                 <div className="navbar-left">
                     <Logo />
                     <NavLinks />
                 </div>
                 {
                     !props.auth && (
-                        <div className="navbar-right">
-                            <div className="btnContainer">
+                        <div className="float-md-right navBtn">
+                            <div className="navBtnContainer">
                                 <NewButton type={false} onClick={()=>{
                                     changeRedirect(true);
                                     changeRoute("/signin");
@@ -42,7 +45,8 @@ function Header(props) {
                         <NavLinks />
                     </BackDrop>
                 </div>
-            </div>
+                
+            </nav>
         </React.Fragment>
     )
 }
