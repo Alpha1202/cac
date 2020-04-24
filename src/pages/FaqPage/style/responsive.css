@@ -12,7 +12,7 @@
     margin: 5px 5px;
   }
   .question-title h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -20,9 +20,23 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .question-wrapper {
+    min-width: 700px;
+  }
 }
 @media only screen and (min-width: 992px) {
   .buttom {
     padding: 5px 50px;
+  }
+  /* .question-wrapper {
+    min-width: 900px;
+  } */
+
+  .faq-right {
+    flex: 100%;
+  }
+
+  .faq-left {
+    display: block;
   }
 }

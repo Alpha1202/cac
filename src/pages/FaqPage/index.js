@@ -14,8 +14,8 @@ export default class FaqPage extends Component {
         <div className="search-container">
           <SearchBar />
         </div>
-        <div className="buttom mt-5">
-          {/* <div className="faq-left">
+        <div className="row buttom mt-5">
+          <div className="col-md-2 faq-left">
             <div className="button-wapper">
               <Tag text="hello" />
               <Tag text="hello" />
@@ -23,9 +23,9 @@ export default class FaqPage extends Component {
               <Tag text="hello" />
               <Tag text="hello" />
             </div>
-          </div> */}
+          </div>
 
-          <div className="faq-right">
+          <div className="col-md-10 faq-right">
             <Question />
             <Question />
             <Question />

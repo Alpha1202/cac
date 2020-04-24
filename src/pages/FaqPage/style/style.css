@@ -44,21 +44,24 @@
   display: flex;
   flex-direction: row;
   height: 100vh;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .faq-left {
-  flex: 2;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: none;
+  /* flex: 2;
+  height: 100%; */
+  /* display: flex; */
+  /* flex-direction: column;
+  align-items: center; */
 }
 
 .button-wapper {
-  height: 40%;
+  /* height: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-around; */
 }
 
 .tag {
@@ -69,6 +72,7 @@
   color: #3e3066;
   border: 2px solid #dedbdb;
   font-weight: 600;
+  margin: 1.5rem 0px;
 }
 
 .tag:hover {
@@ -89,7 +93,12 @@
 }
 
 .faq-right {
-  flex: 10;
+  /* flex: 10; */
+  /* margin-right: 15px;
+  margin-left: 15px;
+  padding-right: 15px;
+  padding-left: 15px; */
+  /* max-width: 100% !important; */
 }
 
 .question-title {
