@@ -1,14 +1,27 @@
-.navbar{
-    display: flex;
+.navBar{
+    display: block;
     flex-direction: row;
     max-height: 25%;
     width: 100%;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     top:0;
-    background-color: white;
+    background-color: red;
+    
 }
-
+.navBar-wrapper{
+    display: flex;
+    flex-direction: row;
+    max-height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-self: center;
+    /* background-color: white; */
+}
+.fixed-top{
+    padding: .5rem 2.5rem !important;
+}
 .navlinks{
     display:flex;    
     justify-content: center;
@@ -25,11 +38,22 @@
     align-items: center;
     width: 70%;
 }
-.navbar-right{
+.navBtnContainer {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
-    width: 30%;
-    padding: 0px 20px;
+    justify-content: space-between;
+    height: 30%;
+    /* padding: 20px; */
+  }
+  .navBtn{
+     min-width: 30%;
+  }
+.navbar-right{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; */
+    /* width: 30%; */
+    /* padding: 0px 20px; */
 }

@@ -11,12 +11,15 @@ function Main() {
     <div className="row sign-up-main-container">
       <div className="col-md-6 left-wrapper-sign-up-cont position-unset ">
         <div className="left-wrapper-sign-up">
+         
           <img
             // className="signup-image image"
             className="signup-image"
             src={illustrationImage}
             alt="cache illustration"
           />
+         
+
           <div className="signup-text">
             <h3>Let's get to know you</h3>
             <h2>Create an account</h2>
@@ -27,6 +30,7 @@ function Main() {
                 <FontAwesomeIcon className="mr-2" icon={["fab", "google"]} />
               </span>
             </div>
+
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ function Footer() {
     // <footer className="footer">
     <footer className="row footer-container">
       <div className="col-md-6 company-details">
-        <div>
+        <div className='footer-logo-wrap'>
           <div className="footer-logo-container mb-4">
             <Logo footer={true} />
           </div>
@@ -27,7 +27,7 @@ function Footer() {
           </div>
         </div>
         <div className="quick-links">
-          <div className="mt-4">
+          <div className="mg">
             <h5 className="wrapper1-col-2-bold">Quick Links</h5>
             <Link>
               <p>About us</p>
@@ -46,7 +46,7 @@ function Footer() {
       </div>
 
       <div className="col-md-6 company-details company-det">
-        <div className="footer-address mt-4">
+        <div className="footer-address mg">
           <div className="">
             <h5 className="wrapper1-col-2-bold">Address</h5>
             <Link>
@@ -63,7 +63,7 @@ function Footer() {
             </Link>
           </div>
         </div>
-        <div className="mt-4 footer-contact">
+        <div className="mg footer-contact">
           <div className="wrapper2-icons mb-3">
             <div>
               <FontAwesomeIcon className="mr-2" icon={["fab", "facebook-f"]} />

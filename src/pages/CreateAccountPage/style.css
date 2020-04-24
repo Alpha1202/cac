@@ -1,6 +1,6 @@
-.wrapper {
+/* .wrapper {
   padding: 0px 20px;
-}
+} */
 
 .signup-input-container {
   width: 80%;
@@ -23,7 +23,7 @@
   color: #422c78;
   text-align: center;
   padding: 2rem 0px;
-  margin: auto;
+ 
 }
 .left-wrapper-sign-up > h1 {
   font-family: Rubik-Bold;
@@ -39,9 +39,9 @@
 .sign-up-form-wrapper {
   padding: 20px;
   background: white;
-  box-shadow: 5px 5px 8px 0px #949292;
+  box-shadow: 3px 2px 7px 0px #949292;
   border-radius: 22px;
-  /* width: 500px; */
+  width: 500px;
 }
 
 .sign-up-form-wrapper > form {
@@ -100,8 +100,12 @@
 @media only screen and (min-width: 1030px) {
   .left-wrapper-sign-up {
     text-align: left;
-    width: 70%;
+    width: 100%;
     margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100%;
   }
   .signup-image {
     margin: 0px 2rem;
@@ -114,13 +118,18 @@
     align-content: center;
     align-items: center;
   }
-
+ .signup-text{
+   justify-content: space-around;
+   text-align: center;
+  align-self: center;
+  width: 70%;
+ }
   .sign-up-with-google {
-    margin: 10px 0;
+    /* margin: 10px 0; */
   }
   .signup-text h3,
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
   }
 
   .left-drop-down .MuiOutlinedInput-root {

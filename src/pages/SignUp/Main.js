@@ -18,18 +18,18 @@ function Main(props) {
     <div className="row sign-in-main-container">
       <div className="col-md-6 position-unset left-wrapper-sign-in">
         <img
-          className="image"
+          className="image image-sign-in"
           src={illustrationImage}
           alt="cache illustration"
         />
-        <h1>Welcome back</h1>
-        <span>Sign in to continue</span>
+        <h1 className='boldText'>Welcome back,</h1>
+        <h2 className='bigText'>Sign in to continue</h2>
         {/* <div className="sign-in-with-google">
           <span>Create with Google</span>
           <span>G</span>
         </div> */}
       </div>
-      <div className="col-md-6  position-unset right-wrapper-sign-in mt-4">
+      <div className="col-md-6 right-wrapper-sign-in mt-4">
         <div className="sign-in-form-wrapper">
           <Form>
             <FormInput placeholder={"Email"} />
